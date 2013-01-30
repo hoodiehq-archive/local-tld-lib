@@ -1,0 +1,24 @@
+{
+  "name": "local-tld-lib",
+  "version": "1.0.0",
+  "description": "Maintain a TLD on localhost for all your projects.",
+  "directories": {
+    "test": "test"
+  },
+  "main":"lib/local-tld.js",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js",
+  },
+  "repository": "https://github.com:hoodiehq/local-tld-lib",
+  "keywords": [
+    "tld",
+    "pow"
+  ],
+  "os": ["darwin"],
+  "author": "Jan Lehnardt <jan@apache.org>",
+  "license": "Apache 2.0",
+  "readmeFilename": "README.md"
+}
