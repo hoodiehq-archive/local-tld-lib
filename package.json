@@ -1,6 +1,6 @@
 {
   "name": "local-tld-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Maintain a TLD on localhost for all your projects.",
   "directories": {
     "test": "test"
@@ -17,7 +17,6 @@
     "tld",
     "pow"
   ],
-  "os": ["darwin"],
   "author": "Jan Lehnardt <jan@apache.org>",
   "license": "Apache 2.0",
   "readmeFilename": "README.md"
