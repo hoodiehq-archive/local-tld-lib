@@ -4,7 +4,7 @@ See http://github.com/hoodiehq/local-tld for a description.
 
 ## I want my app to register itself with local-tld!
 
-    var ltld = require("local-tld");
+    var ltld = require("local-tld-lib");
     ltld.add("yourfancyproject", 12345);
 
     // ok cool, how can I deregister?
