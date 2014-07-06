@@ -1,4 +1,5 @@
 # Local TLD
+[![Build Status](https://travis-ci.org/hoodiehq/local-tld-lib.svg)](https://travis-ci.org/hoodiehq/local-tld-lib)
 
 See http://github.com/hoodiehq/local-tld for a description.
 
