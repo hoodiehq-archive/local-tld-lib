@@ -1,5 +1,7 @@
 # Local TLD
 [![Build Status](https://travis-ci.org/hoodiehq/local-tld-lib.svg)](https://travis-ci.org/hoodiehq/local-tld-lib)
+[![Dependency Status](https://david-dm.org/hoodiehq/local-tld-lib.svg)](https://david-dm.org/hoodiehq/local-tld-lib)
+[![devDependency Status](https://david-dm.org/hoodiehq/local-tld-lib/dev-status.svg)](https://david-dm.org/hoodiehq/local-tld-lib#info=devDependencies)
 
 See http://github.com/hoodiehq/local-tld for a description.
 
