@@ -5,10 +5,11 @@
   "directories": {
     "test": "test"
   },
-  "main":"lib/local-tld.js",
-  "dependencies": {
+  "main": "lib/local-tld.js",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-release-hoodie": "^0.1.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test/test.js"
   },
