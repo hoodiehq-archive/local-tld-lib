@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.10'
+notifications:
+  email: false
+deploy:
+  provider: npm
+  email: stephan@boennemann.me
+  api_key:
+    secure: Bjc1wSY4zQsDaLcWeULwffX+QBB1OXEBGUJ+ibpoA1XnsUJw+ydLD/LjNc3WglPzKDbV47f6SxFV0oArZ+1VYaKP/LYDAtvMfV6GFYqxhO5WL/MyDEqhGjho1P332365sfXR6o324J/yPsprJPUeHPivJMSBjz4Gu7LSxZiELBs=
+  on:
+    tags: true
+    repo: hoodiehq/local-tld-lib
