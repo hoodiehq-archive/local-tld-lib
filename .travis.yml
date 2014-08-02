@@ -5,16 +5,18 @@ notifications:
   email: false
 before_install:
 - npm install -g grunt-cli
-after_sucess:
-- grunt ghrelease
 deploy:
   provider: npm
-  email: stephan@boennemann.me
-  api_key:
-    secure: Bjc1wSY4zQsDaLcWeULwffX+QBB1OXEBGUJ+ibpoA1XnsUJw+ydLD/LjNc3WglPzKDbV47f6SxFV0oArZ+1VYaKP/LYDAtvMfV6GFYqxhO5WL/MyDEqhGjho1P332365sfXR6o324J/yPsprJPUeHPivJMSBjz4Gu7LSxZiELBs=
+  email: stephan@thehoodiefirm.com
   on:
     all_branches: true
     tags: true
+  api_key:
+    secure: jJ+CVdY33nutReZzcMRNzNHDQ5gZaV9WEL4N+3AXnMEXX76f27Z37WXdUVm+uGEGL/Mbh+0zp7jMp02A8OES+QA3oVeAU5j4HZm067pYcGT/jQ+2jvMdGcA2JIWkW12J1IuFszcd9WDmw8QJ8SSfcbLdC04aajytCFQznDSCanY=
 env:
   global:
-    secure: k6FGpes0piSDmaQJ5TfqRiOQjeEAVzaGiPKYTsQTPYUn18yVAoe7ulE8itRNcOeJuVS/sUYuvKn3Q4QyMAPdKbMKNAx3PoBbTKtv10uPNuXGC+Rdy9jyWcyK5XGYY03lCSkP6k8r3U/0S8EJx1rEJOwyy4HTOOC4ZuiOOQJL0W8=
+  - secure: YNdasuXo8PwGE1SIgmfT43NLXkyQZBa+suvUMZtDosRYLpbWafC+L4ZOJ51ioF21vWD4mlN3YNGNdAsDSIiXwu6KYuvLtRuLNQ1d7rmNEQ20K3X/EF0aBUu3uUVD3fh3pQ+6BIjmNHkOSlxHm6edDZpg/jdddeQPtfp4B/Ug+wo=
+before_deploy:
+- grunt before-deploy
+after_deploy:
+- grunt after-deploy

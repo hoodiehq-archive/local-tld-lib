@@ -8,7 +8,7 @@
   "main": "lib/local-tld.js",
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-release-hoodie": "^1.4.1"
+    "grunt-release-hoodie": "^2.5.0"
   },
   "scripts": {
     "test": "node test/test.js && grunt ci"
